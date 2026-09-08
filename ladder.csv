@@ -1,0 +1,9 @@
+# One seed per rung, the seed program's own counts. Support 3 unless noted.
+per_unit,pieces,support_width,exact_ratio,seconds,nonzero_heights,certificate
+32,96,3,0.403969677,10.5,28,ours_m32_n96_W3.json
+48,144,3,0.405283718,19.2,41,ours_m48_n144_W3.json
+64,192,3,0.406544583,38.0,54,ours_m64_n192_W3.json
+96,288,3,0.407470668,74.6,79,ours_m96_n288_W3.json
+128,384,3,0.408619504,147.3,106,ours_m128_n384_W3.json
+370,481,1.3,0.409727814,513.1,311,ours_m370_n481_W1.3.json
+370,481,1.3,0.409821093,1193.0,316,ours_evolved_m370_n481_W1.3.json
