@@ -3,7 +3,10 @@
 **C ≥ 0.409821093**, as an exact fraction of two 42-digit integers, with the
 witness that proves it and a checker you can run in one command.
 
-This is AlphaEvolve problem 6.6. For a non-negative `f` on the line, write
+This is [problem 6](https://google-deepmind.github.io/alphaevolve_repository_of_problems/problems/6.html)
+of DeepMind's AlphaEvolve repository of problems, whose own title for it is
+*"An autocorrelation problem related to difference bases"*. For a non-negative
+`f` on the line, write
 
     a_f(t) = ∫ f(x) f(x+t) dx
 
@@ -158,7 +161,15 @@ The reference construction and `third_party/verify_bound.py` are Russell's,
 from [techno-optimist/minimum-autocorrelation-bound](https://github.com/techno-optimist/minimum-autocorrelation-bound),
 used under the licence included beside the file. The published 0.37 is Barnard
 and Steinerberger, *A Lower Bound for the Autocorrelation of Non-Negative
-Functions*. Problem 6.6 is from the AlphaEvolve problem set.
+Functions*. The problem is number 6 of the 67 in the AlphaEvolve repository of
+problems, which accompanies Georgiev, Gomez-Serrano, Tao and Wagner,
+*Mathematical exploration and discovery at scale* (arXiv:2511.02864).
+
+**A note on the label `C6.6`.** It appears inside the certificate files and in
+the third-party verifier, and it is a legacy name: the problems are numbered as
+plain integers and there is no problem 6.6. The certificates are left byte for
+byte as they were produced, because changing a certificate to tidy a label is a
+habit worth not starting; nothing reads that field.
 
 ## Licence
 
