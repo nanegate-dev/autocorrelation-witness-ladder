@@ -174,3 +174,5 @@ habit worth not starting; nothing reads that field.
 ## Licence
 
 MIT, except `third_party/`, which carries its own.
+
+Abdullah Işık et al.
